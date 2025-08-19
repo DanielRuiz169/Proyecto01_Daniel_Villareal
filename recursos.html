@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es-CR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi Sitio | Recursos</title>
+  <meta name="description" content="Recursos multimedia: audio y video con alternativas.">
+  <link rel="canonical" href="./recursos.html">
+  <link rel="icon" href="./img/favicon.ico" sizes="any">
+</head>
+<body>
+  <header>
+    <a href="./index.html" aria-label="Ir al inicio">
+      <img src="./img/logo.svg" alt="Logotipo de Daniel Villareal" width="120" height="120">
+    </a>
+    <h1>Recursos multimedia</h1>
+    <nav aria-label="Principal">
+      <ul>
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="./productos.html">Productos</a></li>
+        <li><a href="./recursos.html" aria-current="page">Recursos</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section aria-labelledby="audio-demo">
+      <h2 id="audio-demo">Audio de demostración</h2>
+      <audio controls preload="metadata" title="Audio de ejemplo">
+        <source src="./audio/demo.mp3" type="audio/mpeg">
+        <source src="./audio/demo.ogg" type="audio/ogg">
+        Tu navegador no soporta la etiqueta <code>audio</code>. 
+        Descarga el archivo <a href="./audio/demo.mp3">demo.mp3</a>.
+      </audio>
+    </section>
+    <section aria-labelledby="video-demo">
+      <h2 id="video-demo">Video de presentación</h2>
+      <video controls preload="metadata" width="800" height="450" title="Trailer de presentación">
+        <source src="./video/trailer.mp4" type="video/mp4">
+        <source src="./video/trailer.webm" type="video/webm">
+        Tu navegador no soporta la etiqueta <code>video</code>. 
+        Puedes descargarlo en <a href="./video/trailer.mp4">MP4</a>.
+      </video>
+    </section>
+    <section id="accesibilidad" aria-labelledby="acces-title">
+      <h2 id="acces-title">Accesibilidad</h2>
+      <p>Incluimos alternativas textuales y múltiples formatos para maximizar compatibilidad.</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Mi Sitio</p>
+    <nav aria-label="Secundario">
+      <ul>
+        <li><a href="./contacto.html#politica">Privacidad</a></li>
+        <li><a href="./contacto.html#terminos">Términos</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>

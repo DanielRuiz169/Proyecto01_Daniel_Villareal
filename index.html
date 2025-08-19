@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es-CR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi Sitio | Inicio</title>
+  <meta name="description" content="Sitio personal de Daniel: información general, servicios, recursos multimedia y contacto.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="./index.html">
+  <meta property="og:title" content="Mi Sitio | Inicio">
+  <meta property="og:description" content="Conoce mis servicios, productos y recursos.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="./index.html">
+  <meta property="og:image" content="./img/logo.svg">
+  <link rel="icon" href="./img/favicon.ico" sizes="any">
+  <meta name="author" content="Daniel Villareal Ruiz">
+</head>
+<body>
+  <header>
+    <a href="./index.html" aria-label="Ir al inicio">
+      <img src="./img/logo.svg" alt="Logotipo de Daniel Villareal" width="140" height="140">
+    </a>
+    <h1>Mi Sitio</h1>
+    <nav aria-label="Principal">
+      <ul>
+        <li><a href="./index.html" aria-current="page">Inicio</a></li>
+        <li><a href="./productos.html">Productos</a></li>
+        <li><a href="./recursos.html">Recursos</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section aria-labelledby="sobre-nosotros">
+      <h2 id="sobre-nosotros">Sobre mí / la empresa</h2>
+      <p>Breve descripción del sitio y su propósito. Personaliza este texto.</p>
+      <h3>¿Por qué elegirnos?</h3>
+      <ul>
+        <li>Calidad garantizada</li>
+        <li>Atención personalizada</li>
+        <li>Soporte rápido</li>
+      </ul>
+    </section>
+    <section aria-labelledby="galeria">
+      <h2 id="galeria">Imagen destacada</h2>
+      <picture>
+        <source srcset="./img/ejemplo.webp" type="image/webp">
+        <source srcset="./img/ejemplo.jpg" type="image/jpeg">
+        <img src="./img/ejemplo.jpg" alt="Fotografía representativa del producto o servicio" width="800" height="450">
+      </picture>
+    </section>
+    <section aria-labelledby="marca-svg">
+      <h2 id="marca-svg">Sello SVG</h2>
+      <svg role="img" aria-labelledby="titSvg descSvg" width="160" height="160" viewBox="0 0 100 100">
+        <title id="titSvg">Sello de calidad</title>
+        <desc id="descSvg">Ícono circular con una marca de verificación en el centro</desc>
+        <circle cx="50" cy="50" r="48" fill="none" stroke="currentColor" stroke-width="4"/>
+        <path d="M25 52 L45 70 L78 30" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; <span id="anio-actual">2025</span> Mi Sitio. Todos los derechos reservados.</p>
+    <address>
+      <strong>Contacto:</strong> <a href="mailto:info@misitio.cr">info@misitio.cr</a> · Tel: <a href="tel:+50670000000">+506 7000 0000</a>
+    </address>
+    <nav aria-label="Secundario">
+      <ul>
+        <li><a href="./contacto.html#politica">Política de privacidad</a></li>
+        <li><a href="./contacto.html#terminos">Términos y condiciones</a></li>
+        <li><a href="./recursos.html#accesibilidad">Accesibilidad</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>

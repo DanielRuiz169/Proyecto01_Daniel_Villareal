@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es-CR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi Sitio | Productos</title>
+  <meta name="description" content="Catálogo con tabla de productos y especificaciones.">
+  <link rel="canonical" href="./productos.html">
+  <link rel="icon" href="./img/favicon.ico" sizes="any">
+</head>
+<body>
+  <header>
+    <a href="./index.html" aria-label="Ir al inicio">
+      <img src="./img/logo.svg" alt="Logotipo de Daniel Villareal" width="120" height="120">
+    </a>
+    <h1>Productos</h1>
+    <nav aria-label="Principal">
+      <ul>
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="./productos.html" aria-current="page">Productos</a></li>
+        <li><a href="./recursos.html">Recursos</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section aria-labelledby="tabla-productos">
+      <h2 id="tabla-productos">Catálogo</h2>
+      <table>
+        <caption>Lista de productos disponibles</caption>
+        <thead>
+          <tr>
+            <th scope="col">Código</th>
+            <th scope="col">Producto</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Stock</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>P-001</td>
+            <td>Producto A</td>
+            <td>₡12 500</td>
+            <td>Disponible</td>
+          </tr>
+          <tr>
+            <td>P-002</td>
+            <td>Producto B</td>
+            <td>₡8 990</td>
+            <td>Pocas unidades</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4">Precios incluyen IVA. Última actualización: 7/08/2025</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+    <section aria-labelledby="como-comprar">
+      <h2 id="como-comprar">Cómo comprar</h2>
+      <ol>
+        <li>Elige tu producto.</li>
+        <li>Agrega al carrito.</li>
+        <li>Completa tus datos y confirma el pedido.</li>
+      </ol>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Mi Sitio</p>
+    <nav aria-label="Secundario">
+      <ul>
+        <li><a href="./contacto.html#politica">Privacidad</a></li>
+        <li><a href="./contacto.html#terminos">Términos</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
